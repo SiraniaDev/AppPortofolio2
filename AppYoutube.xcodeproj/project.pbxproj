@@ -24,6 +24,8 @@
 		2471B7032488445000B471F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2471B7022488445000B471F8 /* Assets.xcassets */; };
 		2471B7062488445000B471F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2471B7042488445000B471F8 /* LaunchScreen.storyboard */; };
 		24F091ED249E155600C60E15 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F091EC249E155500C60E15 /* IndexViewController.swift */; };
+		2936A92524A8712C006710B3 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936A92324A8712C006710B3 /* SignupViewController.swift */; };
+		2936A92624A8712C006710B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936A92424A8712C006710B3 /* LoginViewController.swift */; };
 		29D5D35124A72CD9006356D6 /* l.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29D5D35024A72CD9006356D6 /* l.mp4 */; };
 		29D5D35324A72DF7006356D6 /* ketnet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29D5D35224A72DF7006356D6 /* ketnet.mp4 */; };
 		29D5D35624A73A88006356D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29D5D35524A73A88006356D6 /* GoogleService-Info.plist */; };
@@ -51,6 +53,8 @@
 		2471B7052488445000B471F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2471B7072488445000B471F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24F091EC249E155500C60E15 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		2936A92324A8712C006710B3 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		2936A92424A8712C006710B3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		29D5D35024A72CD9006356D6 /* l.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = l.mp4; sourceTree = "<group>"; };
 		29D5D35224A72DF7006356D6 /* ketnet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ketnet.mp4; sourceTree = "<group>"; };
 		29D5D35524A73A88006356D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				2471B6FD2488444B00B471F8 /* ViewController.swift */,
 				2408D2B2249F487F0083BF19 /* ViewController2.swift */,
 				240F0F622494E5CC00BA05D9 /* DetailsUIViewController.swift */,
+				2936A92424A8712C006710B3 /* LoginViewController.swift */,
+				2936A92324A8712C006710B3 /* SignupViewController.swift */,
 				241650C02494D53F00EB9C76 /* VideoTableViewCell.swift */,
 			);
 			path = ViewsControllers;
@@ -298,11 +304,13 @@
 				2471B6FE2488444B00B471F8 /* ViewController.swift in Sources */,
 				240F0F632494E5CC00BA05D9 /* DetailsUIViewController.swift in Sources */,
 				241650C32494D7B400EB9C76 /* CacheManager.swift in Sources */,
+				2936A92624A8712C006710B3 /* LoginViewController.swift in Sources */,
 				2471B6FA2488444B00B471F8 /* AppDelegate.swift in Sources */,
 				2471B6FC2488444B00B471F8 /* SceneDelegate.swift in Sources */,
 				240ECF5B2488D6E30006A449 /* Model.swift in Sources */,
 				240ECF592488D64D0006A449 /* Videos.swift in Sources */,
 				241650C12494D53F00EB9C76 /* VideoTableViewCell.swift in Sources */,
+				2936A92524A8712C006710B3 /* SignupViewController.swift in Sources */,
 				2408D2B1249F41BD0083BF19 /* Uitilities.swift in Sources */,
 				240ECF572488D0780006A449 /* Constants.swift in Sources */,
 				24F091ED249E155600C60E15 /* IndexViewController.swift in Sources */,

@@ -43,7 +43,7 @@ class IndexViewController: UIViewController,LoginButtonDelegate,ASAuthorizationC
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        //setUpVideo()
+        setUpVideo()
     }
     func setupElements(){
         //Hide the error label
@@ -51,8 +51,8 @@ class IndexViewController: UIViewController,LoginButtonDelegate,ASAuthorizationC
         //      // style element
         //      Utilities.styleTextField(emailTextField)
         //      Utilities.styleTextField(passwordTextField)
-        Utilities.styleFilledButton(loginButton)
-        Utilities.styleFilledButton(signUpButton)
+//        Utilities.styleFilledButton(loginButton)
+//        Utilities.styleFilledButton(signUpButton)
     }
     //    override func viewWillAppear(_ animated: Bool) {
     //

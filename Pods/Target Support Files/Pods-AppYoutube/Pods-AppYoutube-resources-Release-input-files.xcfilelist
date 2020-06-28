@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-AppYoutube/Pods-AppYoutube-resources.sh
 ${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle
 ${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle
